@@ -5,10 +5,10 @@ class Program
     static void Main(string[] args)
     {
                 // Create the reference for the scripture
-        Reference reference = new Reference("Proverbs", 3, 5, 6);
+        Reference reference = new Reference("John", 3, 16);
 
         // Scripture text
-        string scriptureText = "Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.";
+        string scriptureText = "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.";
 
         // Create the scripture object
         Scripture scripture = new Scripture(reference, scriptureText);
